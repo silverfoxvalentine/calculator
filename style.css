@@ -1,0 +1,63 @@
+#calculator {
+height: 460px;
+width: 310px;    
+margin: 80px auto;
+box-sizing: border-box;
+background-color:whitesmoke;
+padding: 5px;
+border-bottom-left-radius: 14px;
+border-bottom-right-radius: 14px;
+color:rgb(44, 46, 48);
+border: #051e3e;
+border-width: 2px;
+border-style: solid;
+}
+
+#display {
+    background-color: #a9d0ff;
+    height: 70px;
+    width: 290px;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 0 8px;
+    text-align: right;
+    margin: 5px auto;
+    font-family: 'custom';
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+button {
+    height: 70px;
+    width: 70px; 
+    border-radius: 14px;
+    font-size: 20px;
+    font-family: 'custom1';
+    background-color: #bfd8f6 ;
+    color:  #051e3e;
+}
+
+#equals {
+    height: 70px;
+    width: 142px; 
+    border-radius: 14px;
+    font-family: 'custom1';
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+
+@font-face {
+    font-family: 'custom1';
+    src: url(Copperplate.ttc);
+}
+
+@font-face {
+    font-family: 'custom';
+    src: url(Memphis.ttf);
+}
